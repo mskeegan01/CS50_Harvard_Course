@@ -16,6 +16,7 @@ i=row   |-> ls|  0  |  1  |  2  |  3  | (h = 4)
 -----------------------------------------------
 
 
-(i + ls < (height - 1))                             --> height -1, because we have in row(i)= 0 in ls 2 and 3 hashes as platform to stay for mario. O
-                                                        only one hash would be too small for mario to stand on.
-                                                    --> if you delete -1, result = pyramid with only one hash at the top ;-)
+(i + ls < (height - 1))                             --> height -1, because for row(i) = 0 in ->ls: their are 2 and 3 hashes
+                                                        as platform to stay for mario.
+                                                        Only one hash would be too small for mario to stand on. Or? ;-)
+                                                    --> if you delete -1, result = pyramid with only one hash at the top.
