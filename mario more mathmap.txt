@@ -16,7 +16,7 @@ i=row   |-> ls|  0  |  1  |  2  |  3  |  4  |  5  |  0  |  1  |  2  |  3  |  (h 
 --------------------------------------------------------------------------------------
    3    |  #  |  #  |  #  |  #  |  #  |  -     -  |  #  |  #  |  #  |  #  |  #  |                        // ls =  0 /  0
 --------------------------------------------------------------------------------------
-
+                                      | 2x spaces |
 
 
 ((i + ls < (height -1) || ls == height || ls == height + 1) // set boarders for hight right half of Pyramid     ls == height + 1 for  counting the hashes up, by going down
