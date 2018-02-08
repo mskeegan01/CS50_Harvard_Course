@@ -1,0 +1,29 @@
+
+
+
+
+
+Mind Map for a better mathimatical understanding of mario
+
+
+i=row   |-> ls|  0  |  1  |  2  |  3  |  4  |  5  |  0  |  1  |  2  |  3  |  (h = 4)                            left / right    --> Tower
+--------------------------------------------------------------------------------------
+   0    |     |     |     |  #  |  #  |  -     -  |  #  |  #  |     |     |     |                        // ls =  3 / -3 spaces for 0. line
+--------------------------------------------------------------------------------------
+   1    |     |     |  #  |  #  |  #  |  -     -  |  #  |  #  |  #  |     |     |                        // ls =  2 / -2 spaces for 1. line, etc...
+--------------------------------------------------------------------------------------
+   2    |     |  #  |  #  |  #  |  #  |  -     -  |  #  |  #  |  #  |  #  |     |                        // ls =  1 / -1
+--------------------------------------------------------------------------------------
+   3    |  #  |  #  |  #  |  #  |  #  |  -     -  |  #  |  #  |  #  |  #  |  #  |                        // ls =  0 /  0
+--------------------------------------------------------------------------------------
+
+
+
+((i + ls < (height -1) || ls == height || ls == height + 1) // set boarders for hight right half of Pyramid     ls == height + 1 for  counting the hashes up, by going down
+
+
+
+
+(i + ls < (height - 1))                             --> height -1, because we have in row(i)= 0 in ls 2 and 3 hashes as platform to stay for mario. O
+                                                        only one hash would be too small for mario to stand on.
+                                                    --> if you delete -1, result = pyramid with only one hash at the top ;-)
